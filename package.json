@@ -1,0 +1,12 @@
+{
+  "name": "moneytreeserver",
+  "version": "1.0.0",
+  "description": "services for money tree app",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch ./data-layer/db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}

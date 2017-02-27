@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "pranav",
+      "email": "pkaushik3@sapient.com",
+      "password": "password1",
+      "role": "portfolio_manager"
+    },
+    {
+      "id": 2,
+      "username": "rahul",
+      "email": "rarora30@sapient.com",
+      "password": "password1",
+      "role": "trader"
+    }
+  ],
+  "securities": [
+    {
+      "id": 1,
+      "symbol": "APPL",
+      "name": "Apple"
+    },
+    {
+      "id": 2,
+      "symbol": "MSFT",
+      "name": "Microsoft"
+    },
+    {
+      "id": 3,
+      "symbol": "INFY",
+      "name": "Infosys"
+    },
+    {
+      "id": 4,
+      "symbol": "SBIN",
+      "name": "State Bank of India"
+    },
+    {
+      "name": "abc",
+      "symbol": "abc",
+      "id": 5
+    },
+    {
+      "name": "abc",
+      "symbol": "abc",
+      "id": 6
+    }
+  ],
+  "orders": [
+    {
+      "symbol": "INFY",
+      "type": "MARKET",
+      "side": "BUY",
+      "limitPrice": 0,
+      "stopPrice": 0,
+      "quantity": 10,
+      "id": 1,
+      "blockId": 1
+    }
+  ]
+}
